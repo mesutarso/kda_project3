@@ -8,7 +8,7 @@
   </head>
   <body>
     <div>
-      <h1>Contenu projet “Structurer un contenu HTML”</h1>
+      <h1 id="main-title">Histoire d’Internet</h1>
       <p>
         L’<strong>histoire d'Internet</strong> remonte au développement des
         premiers réseaux de télécommunication. L’idée d’un réseau informatique,
@@ -38,12 +38,12 @@
       </p>
     </div>
     <div>
-      <h2>Chronologie Sélective</h2>
+      <h2 class="sub-title">Chronologie Sélective</h2>
       <table>
         <thead>
           <tr>
             <th><strong>Année</strong></th>
-            <th><strong>Evènements</strong></th>
+            <th style="text-align: center"><strong>Evènements</strong></th>
           </tr>
         </thead>
         <tbody>
@@ -252,21 +252,23 @@
       </table>
       <br /><br />
       <div>
-        <img
-          src="images/premier-serveur-web.jpg"
-          alt="Premier servuer web"
-          width="300"
-          height="400"
-        />
-        <br />
-        <p>
-          Fig.1 - Le premier serveur web, actuellement au musée du CERN,
-          étiqueté
-          <cite> «This machine is a server. DO NOT POWER IT DOWN!! »</cite>
-        </p>
+        <figure>
+          <img
+            id="image_premier_serveur"
+            src="images/premier-serveur-web.jpg"
+            alt="Premier servuer web"
+            width="300"
+            height="400"
+          />
+          <figcaption>
+            Fig.1 - Le premier serveur web, actuellement au musée du CERN,
+            étiqueté
+            <cite> «This machine is a server. DO NOT POWER IT DOWN!! »</cite>
+          </figcaption>
+        </figure>
       </div>
       <div>
-        <h2>Protocole TCP/IP</h2>
+        <h2 class="sub-title">Protocole TCP/IP</h2>
         <p>
           L'abondante diversité des méthodes de communications réseau amena un
           besoin d'uniformisation. Robert E. Kahn recruta Vinton G. Cerf de
@@ -279,7 +281,7 @@
           Cerf attribua à Hubert Zimmermann et Louis Pouzin (développeurs du
           réseau Cyclades) un important travail de développement.
         </p>
-        <p>
+        <p id="dotted_paragraph">
           Avec le rôle du réseau physique réduit à son strict minimum, il devint
           alors possible de fusionner à peu près tout type de réseau sans tenir
           compte de leurs caractéristiques et ainsi résoudre le problème que
