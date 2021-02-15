@@ -8,7 +8,7 @@
   </head>
   <body>
     <div>
-      <h1>Page 2 : World Wide Web</h1>
+      <h1 class="main-title">World Wide Web</h1>
       <p>
         Le <b>World Wide Web</b> (litt. la
         <cite>« toile (d’araignée) mondiale »</cite>, abrégé www ou le Web), le
@@ -42,12 +42,20 @@
     </div>
     <br /><br />
     <div>
-      <img src="images/logo-historique-du-web.svg" alt="Premier servuer web" />
-      <br />
-      <p>Fig.1 Logo historique du World Wide Web par Robert Cailliau.</p>
-      <br /><br />
+      <figure>
+        <img
+          id="wide_world_web_logo"
+          src="images/logo-historique-du-web.svg"
+          alt="Premier servuer web"
+        />
+
+        <figcaption>
+          Fig.1 Logo historique du World Wide Web par Robert Cailliau.
+        </figcaption>
+      </figure>
+
       <div>
-        <h2>Spécifications</h2>
+        <h2 class="sub-title">Spécifications</h2>
         <h3>Abbreviation</h3>
         <p>
           Le World Wide Web est désigné par de nombreux noms et abréviations
@@ -67,10 +75,10 @@
       </div>
     </div>
     <div>
-      <h3>La première page Web</h3>
+      <h2 class="sub-title">La première page Web</h2>
       <p>Voici le code de la première page Web :</p>
       <div>
-        <pre>
+        <pre id="code_section">
       &lt;HEADER&gt;
       &lt;TITLE&gt;The World Wide Web project&lt;/TITLE&gt;
       &lt;NEXTID N="55"&gt;
