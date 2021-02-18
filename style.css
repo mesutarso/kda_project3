@@ -22,7 +22,7 @@ a {
 }
 
 .main-title {
-    font-size: 70px;
+    font-size: 5em;
     font-family: Bitter, serif;
     font-weight: bolder;
     text-align: center;
@@ -31,7 +31,7 @@ a {
 .sub-title {
     font-size: 30px;
     font-family: Bitter, serif;
-    font-weight: bolder;
+    font-weight: 700;
     color: #b6183c;
 }
 
