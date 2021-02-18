@@ -1,85 +1,101 @@
-@font-face{
-    font-family: Open-sans;
-    src: url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap');
+@font-face {
+    font-family: Bitter;
+    src: url('https://fonts.googleapis.com/css2?family=Bitter:wght@900&display=swap');
 }
-body{
+
+body {
     background-color: #c8c8c8;
-    margin:50px 250px;
-    color: black;   
+    margin: 50px 250px;
+    color: black;
 }
-p{
+
+p {
     font-size: 16px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Bitter, sans-serif;
     font-weight: 500;
-    color:#070707;
+    color: #070707;
 }
-a{
+
+a {
     color: #b6183c;
     font-weight: 700
 }
 
-.main-title{
+.main-title {
     font-size: 70px;
-    font-family: Open-sans,  serif;
+    font-family: Bitter, serif;
     font-weight: bolder;
     text-align: center;
 }
-.sub-title{
+
+.sub-title {
     font-size: 30px;
-    font-family: Open-sans, serif;
+    font-family: Bitter, serif;
     font-weight: bolder;
-    color:#b6183c;
+    color: #b6183c;
 }
-table{
+
+table {
     border: none;
     border-collapse: collapse;
 }
-thead > tr > th{
+
+thead>tr>th {
     color: #ffffff;
-    background-color: #333; 
-    font-weight: bold;   
+    background-color: #333;
+    font-weight: bold;
 }
-thead > tr{
+
+thead>tr {
     height: 50px;
     padding: 20px;
 }
 
-
 tr:nth-child(odd) {
     background-color: #ddd;
 }
-tr:hover {background-color: #999;}
-th, td {
+
+tr:hover {
+    background-color: #999;
+}
+
+th,
+td {
     padding: 0 3px;
     text-align: left;
-  }
-#image_premier_serveur, #wide_world_web_logo{
+}
+
+#image_premier_serveur,
+#wide_world_web_logo {
     max-width: 100%;
     width: 100%;
     height: 100%;
-    
 }
-figure{
-    margin:0;
+
+figure {
+    margin: 0;
     padding: 30px;
-    border : 3px solid #b6183c;
+    border: 3px solid #b6183c;
     border-radius: 10px;
     background: #333;
 }
-figcaption{
+
+figcaption {
     color: #dcdcdc;
     font-size: 18px;
-    font-weight:700;
+    font-weight: 700;
     padding: 20px;
 }
-#dotted_paragraph{
+
+#dotted_paragraph {
     margin: 20px;
     padding: 20px;
     background-color: #b7b7b7;
-    color:#5346ae;
+    color: #5346ae;
     border: 3px dotted #5346ae;
 }
-#code_section{
+
+#code_section {
     background-color: #333;
     text-align: left;
     color: #ffffff;
