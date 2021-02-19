@@ -16,8 +16,8 @@ body {
 }
 
 main {
-    margin: 50px auto;
     width: 70vw;
+    margin: 0 auto;
 }
 
 p {
@@ -68,6 +68,7 @@ table {
     border: none;
     border-collapse: collapse;
     border-spacing: 20px;
+    margin: 0 auto;
 }
 
 thead>tr {
@@ -104,8 +105,8 @@ th>strong {
 
 .image-sizing {
     max-width: 100%;
-    width: 100%;
-    height: 100%;
+    width: 80%;
+    height: 80%;
 }
 
 figure {
